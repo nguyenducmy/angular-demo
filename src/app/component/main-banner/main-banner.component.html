@@ -1,0 +1,28 @@
+<div id="main-banner">
+  <ul>
+    <li>
+      <div id="side-menu-bar">
+        <ul>
+          <li>Electronics Devices</li>
+          <li>Electronics Accessories</li>
+          <li>TV Home Appliances</li>
+          <li>Health & Beauty</li>
+          <li>Babies & Toys</li>
+          <li>Groceries & Pets</li>
+          <li>Home & Lifestyle</li>
+          <li>Women's Fashion & Accessories</li>
+          <li>Men's Fashion & Accessories</li>
+          <li>Kid's Fashion & Accessories</li>
+          <li>Sport & Travel</li>
+          <li>Automotive & Motocycles</li>
+        </ul>
+      </div>
+    </li>
+    <li>
+      <div id="banner" #container style="height: 320px; text-align:center;margin:0; padding:0;">
+        <ng-image-slider #nav [images]="imgCollection" [infinite]="true" [manageImageRatio]=true [autoSlide]="1"
+                         [animationSpeed]="3" [imageSize]="{width: 1000, height: 320, space: 10}" slideImage="1"></ng-image-slider>
+      </div>
+    </li>
+  </ul>
+</div>
